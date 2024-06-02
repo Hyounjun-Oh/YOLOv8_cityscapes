@@ -1,0 +1,27 @@
+train: ../train/images
+val: ../val/images
+test: ../test/images
+
+nc: 19  # Number of classes in the Cityscapes dataset used for training
+
+names: [
+  'road',            # Class ID 0
+  'sidewalk',        # Class ID 1
+  'building',        # Class ID 2
+  'wall',            # Class ID 3
+  'fence',           # Class ID 4
+  'pole',            # Class ID 5
+  'traffic light',   # Class ID 6
+  'traffic sign',    # Class ID 7
+  'vegetation',      # Class ID 8
+  'terrain',         # Class ID 9
+  'sky',             # Class ID 10
+  'person',          # Class ID 11
+  'rider',           # Class ID 12
+  'car',             # Class ID 13
+  'truck',           # Class ID 14
+  'bus',             # Class ID 15
+  'train',           # Class ID 16
+  'motorcycle',      # Class ID 17
+  'bicycle'          # Class ID 18
+]
