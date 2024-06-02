@@ -10,7 +10,16 @@ Due to the incompatibility between the datasets, a conversion process is necessa
 ```python
 python convert.py <annotation_folder_path>
 ``` 
+## Demo
+
+![alt text](https://github.com/Hyounjun-Oh/YOLOv8_cityscapes/blob/main/yolov8_cityscapes_.gif?raw=true 'YOLOv8 Cityscapes semantic segmentation')
+
 ##  Cites
 [1] M. Cordts, M. Omran, S. Ramos, T. Rehfeld, M. Enzweiler, R. Benenson, U. Franke, S. Roth, and B. Schiele, “The Cityscapes Dataset for Semantic Urban Scene Understanding,” in Proc. of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2016.
 
 [2] YOLOv8 : https://github.com/ultralytics/ultralytics
+
+
+
+
+
