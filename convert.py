@@ -1,8 +1,6 @@
 import os
 import json
-
-# The folder address containing the annotation files.
-folder_path = '/home/ohj/cityscapes/gtFine/val/lindau'
+import sys
 
 def polygon_to_normalized_coords(polygon, img_width, img_height):
     normalized_coords = []
@@ -84,8 +82,13 @@ class_mapping = {
     'license plate': 255,
 }
 
-# Run the conversion
-process_folder(folder_path, class_mapping)
+if __name__ == "__main__":
+    if len(sys.argv) != 2:
+        print("Usage: python convert.py <annotation_folder_path>")
+        sys.exit(1)
 
-# You can use the rename command to make the names of the original image files and annotation files the same.
-# rename 's/gtFine_polygons/leftImg8bit/' *.txt
+    folder_path = sys.argv[1]
+    process_folder(folder_path, class_mapping)
+
+    # You can use the rename command to make the names of the original image files and annotation files the same.
+    # rename 's/gtFine_polygons/leftImg8bit/' *.txt
