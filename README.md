@@ -13,7 +13,7 @@ python convert.py <annotation_folder_path>
 ## Demo
 Inside the result_example folder, you will find model files trained with a small subset of the Cityscapes dataset. This repository includes a few images as examples to show how to input data into the YOLOv8 model. For actual training, please use more data.
 
-The model trained with this data has been applied to the video captured personally.
+The model trained with this data has been applied to the Cityscapes video.
 Below is the GIF.
 ![alt text](https://github.com/Hyounjun-Oh/YOLOv8_cityscapes/blob/main/yolov8_cityscapes_.gif?raw=true 'YOLOv8 Cityscapes semantic segmentation')
 
