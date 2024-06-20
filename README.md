@@ -17,6 +17,21 @@ The model trained with this data has been applied to the Cityscapes video.
 Below is the GIF.
 ![alt text](https://github.com/Hyounjun-Oh/YOLOv8_cityscapes/blob/main/yolov8_cityscapes_.gif?raw=true 'YOLOv8 Cityscapes semantic segmentation')
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.txt) file for details.
+
+## Attribution and Usage
+
+This project uses data from the [Cityscapes Dataset](https://www.cityscapes-dataset.com/). The usage of this dataset is subject to the following terms:
+
+- The dataset can only be used for non-commercial purposes.
+- Proper attribution to the [Cityscapes Dataset](https://www.cityscapes-dataset.com/license/) is required.
+- Any modifications or adaptations to the data must be distributed under the same license.
+
+For more details, please refer to the [Cityscapes License Agreement](https://www.cityscapes-dataset.com/license/).
+
+
 ##  Cites
 [1] M. Cordts, M. Omran, S. Ramos, T. Rehfeld, M. Enzweiler, R. Benenson, U. Franke, S. Roth, and B. Schiele, “The Cityscapes Dataset for Semantic Urban Scene Understanding,” in Proc. of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2016.
 
